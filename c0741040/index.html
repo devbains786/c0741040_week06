@@ -4,9 +4,37 @@
     <meta charset="utf-8" />
     <title>c0741040</title>
     <link href="css/default.css" rel="stylesheet" />
+    <script>
+        function addNumbers(coutUpto) {
+
+            sum = 0;
+            i = 0;
+            while (i < coutUpto) {
+
+                sum = sum + i;
+                i++;
+
+            }
+            /* for ( i=0; i < coutUpto; i++)
+             {
+ 
+                 sum += i;
+             }*/
+            return sum;
+        }
+              
+    </script>
 </head>
 <body>
-    <div>Content goes here!</div>
+    <script>
+
+        var input = prompt("Input your number!");
+        document.write(addNumbers(input));
+
+    </script>
+
+
+  
     <script src="js/main.js"></script>
 </body>
 </html>
